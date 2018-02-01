@@ -1,0 +1,102 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+body {
+    width: 100%;
+	background-color: antiquewhite;
+    text-align: center;
+    background-image: url(/images/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+sarticle {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+
+h1, h2, h3 {
+font-size: 2rem;
+font-weight: bold;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+font-family: cursive;
+    
+   
+    
+
+}
+p {
+    font-family: cursive;
+    color: white;
+    
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {color: aqua}
+    25% {color: red}
+    50% {color: yellow}
+    75% {color: blue}
+    100% {color: orange}
+    
+    }
+
+@keyframes image {
+    from {text-align: left;
+    }
+    
+    to {
+        text-align: right;
+    }
+    
+    }
+
+@keyframes p {
+    0% {color:chartreuse}
+    25% {color:aqua}
+    50% {color:black}
+    75% {color:darkmagenta}
+    100% {color: orange}
+    
+    }
+    
+
+
+#first {
+	
+}
+
+
+
+#second {
+    
+    
+}
+
+
+
+#third {
+
+}
+
+
+
+#fourth {
+ 
+}
+
+#image {
+    
+    animation-name: image;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
